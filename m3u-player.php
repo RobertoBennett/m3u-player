@@ -2,7 +2,7 @@
 /**
  * Plugin Name: M3U Player
  * Description: Video player for M3U/M3U8 playlists with shortcode support
- * Plugin URI: https://yoursite.com/
+ * Plugin URI: https://github.com/RobertoBennett/m3u-player
  * Version: 1.25.0
  * Author: Robbert Bennett
  * Text Domain: M3U Player
@@ -20,4 +20,5 @@ function m3u_player_init() {
     new M3U_Player();
     new M3U_Player_Shortcode();
 }
+
 add_action('plugins_loaded', 'm3u_player_init');
